@@ -5,4 +5,4 @@ let setup = async (bot) => {
 module.exports = {
  setup: setup
 };
-
+console.log("roblox.aoi installed Working on v1")

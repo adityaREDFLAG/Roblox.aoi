@@ -2,8 +2,8 @@
   "dependencies": {
     "npm": "^10.2.0"
   },
-  "name": "roblox.aoi",
-  "version": "1.0.0",
+  "name": "aoi.roblox",
+  "version": "1.2.0",
   "description": "Roblox To Aoi.js",
   "main": "index.js",
   "devDependencies": {},
