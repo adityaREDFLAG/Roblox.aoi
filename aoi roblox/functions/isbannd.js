@@ -1,5 +1,5 @@
 module.exports = {
-name: "$isBanned",
+name: "$RBXisBanned",
 type: "aoi.js",
 code: `
 $getObjectProperty[isBanned;isBanned]
