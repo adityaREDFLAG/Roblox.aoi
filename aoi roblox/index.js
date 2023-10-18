@@ -1,0 +1,1 @@
+require("aoi.roblox").setup(bot)
