@@ -6,3 +6,11 @@ module.exports = {
  setup: setup
 };
 console.log("roblox.aoi installed Working on v1")
+
+for (const file of require("node:fs").readFileSync("./functions")) {
+var thefunction = require("./functions/"+file);
+
+bot.functionManager.createFunction(
+thefunction
+);
+};
