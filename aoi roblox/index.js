@@ -1,5 +1,5 @@
 let setup = async (bot) => {
-// that thing that should work when you do aoiroblox.setup() at your bot index.js file
+// that thing that should work when you do robloxaoi.setup() at your bot index.js file
 };
 
 module.exports = {
