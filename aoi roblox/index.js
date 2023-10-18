@@ -5,12 +5,12 @@ let setup = async (bot) => {
 module.exports = {
  setup: setup
 };
-console.log("roblox.aoi installed Working on v1")
 
-for (const file of require("node:fs").readFileSync("./functions")) {
-var thefunction = require("./functions/"+file);
+console.log("roblox.aoi installed Working on v1");
 
-<bot>.functionManager.createFunction(
-thefunction
-);
-};
+const fs = require("node:fs");
+for (const file of fs.readdirSync("./functions")) {
+  const theFunction = require("./functions/" + file);
+
+  bot.functionManager.createFunction(theFunction);
+}

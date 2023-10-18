@@ -3,7 +3,7 @@
     "npm": "^10.2.0"
   },
   "name": "roblox.aoi",
-  "version": "1.2.2",
+  "version": "1.2.6",
   "description": "Roblox To Aoi.js",
   "main": "index.js",
   "devDependencies": {},
